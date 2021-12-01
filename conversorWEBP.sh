@@ -11,4 +11,6 @@ do
     a=$((a+1))
 done < arqs_aconverter.lista
 
+rm arqs_aconverter.lista
+
 echo $a arquivos convertidos
